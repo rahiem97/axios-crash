@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=6LyagkoRWYA
+
 // GET REQUEST
 function getTodos() {
   console.log('GET Request');
@@ -90,8 +92,6 @@ document.getElementById('update').addEventListener('click', updateTodo);
 document.getElementById('delete').addEventListener('click', removeTodo);
 document.getElementById('sim').addEventListener('click', getData);
 document.getElementById('headers').addEventListener('click', customHeaders);
-document
-  .getElementById('transform')
-  .addEventListener('click', transformResponse);
+document.getElementById('transform').addEventListener('click', transformResponse);
 document.getElementById('error').addEventListener('click', errorHandling);
 document.getElementById('cancel').addEventListener('click', cancelToken);
